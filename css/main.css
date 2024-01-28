@@ -64,8 +64,7 @@ ul {
     margin-bottom: 64px;
 }
 
-.main-title,
-.main-subtitle {
+.main-title, .main-subtitle {
     text-align: center;
 }
 
@@ -319,10 +318,23 @@ ul {
 }
 
 .things-card-item img {
-    width: 48px;
-    height: 48px;
     margin: 0;
     margin-bottom: 48px;
+}
+
+.things-btn-one {
+    width: 48px;
+    height: 48px;
+}
+
+.things-btn-two {
+    width: 46.5px;
+    height: 48px;
+}
+
+.things-btn-three {
+    width: 41.5px;
+    height: 48px;
 }
 
 .things-card-item-title {
