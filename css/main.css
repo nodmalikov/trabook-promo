@@ -662,19 +662,22 @@ ul {
     font-weight: 500;
     line-height: 32px;
     margin: 0;
-    margin-bottom: 34px;
+    margin-bottom: 40px;
 }
 
 .people-right-content-title {
     color: #222;
     font-size: 18px;
     font-weight: 600;
+    margin: 0;
+    margin-bottom: 10px;
 }
 
 .people-right-content-subtitle {
     color: #666;
     font-size: 14px;
     font-weight: 500;
+    margin: 0;
 }
 
 /* SITE-BLOG */
