@@ -740,6 +740,7 @@ ul {
 /* SITE-FOOTER */
 .footer {
     background-color: #f7f8fc;
+    padding-bottom: 48px;
 }
 
 .footer-top {
@@ -875,4 +876,5 @@ ul {
 .footer-bottom-text p {
     color: #666;
     opacity: 0.8;
+    margin: 0;
 }
