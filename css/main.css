@@ -151,10 +151,10 @@ ul {
 .hero-container {
     display: flex;
     flex-wrap: wrap;
-    background-image: url(/img/hero-background-shape.svg);
+    /* background-image: url(/img/hero-background-shape.svg);
     background-repeat: no-repeat;
     background-size: 785px 191px;
-    background-position-x: 541px;
+    background-position-x: 541px; */
 }
 
 .hero-top {
@@ -216,6 +216,7 @@ ul {
 .hero-img-background {
     display: flex;
     justify-content: center;
+    align-items: end;
     width: 500px;
     height: 500px;
     background-color: #fa7436;
@@ -367,6 +368,10 @@ ul {
     margin-bottom: 48px;
 }
 
+.exclusive-subtitle {
+    width: 433px;
+}
+
 .exclusive-card-item {
     width: 270px;
     margin-right: 28px;
@@ -470,11 +475,12 @@ ul {
 }
 
 .vacation-subtitle {
+    width: 521px;
     margin-bottom: 0;
 }
 
 .vacation-button {
-    width: 112px;
+    width: 104px;
     height: 40px;
     margin-bottom: 24px;
 }
@@ -566,4 +572,81 @@ ul {
     color: #666;
     line-height: 24px;
     margin: 0;
+}
+
+/* SITE-PEOPLE */
+.people {
+    padding-top: 120px;
+    padding-bottom: 120px;
+    background-color: #f7f8fc;
+}
+
+.people-container {
+    display: flex;
+    justify-content: center;
+    /* background-image: url(/img/people-background-shape.svg);
+    background-repeat: no-repeat;
+    background-size: 168.5px 188px;
+    background-position-x: 394px;
+    background-position-y: 56px; */
+}
+
+.people-title {
+    text-align: left;
+}
+
+.people-subtitle {
+    width: 482px;
+    margin: 0;
+    margin-bottom: 32px;
+    text-align: left;
+    color: #666;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.people-button {
+    width: 104px;
+    height: 40px;
+}
+
+.people-left-content {
+    width: 394px;
+    margin-right: 157px;
+}
+
+.people-right-content {
+    width: 504px;
+    padding: 28px 0px 34px 34px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0px 100px 80px 0px rgba(0, 0, 0, 0.02);
+}
+
+/* .people-right-content-img {
+    width: 68px;
+    height: 68px;
+    border-radius: 50%;
+} */
+
+.people-right-content-text {
+    width: 402px;
+    color: #444;
+    font-weight: 500;
+    line-height: 32px;
+    margin: 0;
+    margin-bottom: 34px;
+}
+
+.people-right-content-title {
+    color: #222;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.people-right-content-subtitle {
+    color: #666;
+    font-size: 14px;
+    font-weight: 500;
 }
