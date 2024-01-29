@@ -455,10 +455,115 @@ ul {
     height: 40px;
 }
 
-/* SITE-VACTION */
-.vaction {
+/* SITE-VACATION */
+.vacation {
     padding-top: 120px;
     padding-bottom: 120px;
-    background-image: url(/img/palma.svg);
+    background-color: #fefcfb;
+}
+
+.vacation-container {
+    background-image: url(/img/vacation-background-shape.svg);
     background-repeat: no-repeat;
+    background-size: 105.5px 81px;
+    background-position-x: 875px;
+}
+
+.vacation-subtitle {
+    margin-bottom: 0;
+}
+
+.vacation-button {
+    width: 112px;
+    height: 40px;
+    margin-bottom: 24px;
+}
+
+.vacation-button-wrapper {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.vacation-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.vacation-item {
+    width: 370px;
+    border-radius: 16px;
+    margin-right: 31px;
+    background-color: #fff;
+    border: 2px solid rgba(102, 102, 102, 0.08);
+}
+
+.vacation-item:last-child {
+    margin-right: 0;
+}
+
+.vacation-item-img {
+    width: 369px;
+    height: 327px;
+    margin-bottom: 24px;
+    border-radius: 16px;
+    box-shadow: 0px 1.852px 3.148px 0px rgba(0, 0, 0, 0.0);
+}
+
+.vacation-item-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.vacation-item-bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.vacation-item-title {
+    color: #222;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 32px;
+    margin: 0;
+    margin-right: 74px;
+}
+
+.vacation-item-number {
+    color: #fa7436;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+}
+
+.vacation-navigation-icon {
+    width: 18.7px;
+    height: 16px;
+    margin-right: 14.5px;
+}
+
+.vacation-item-subtitle {
+    color: #666;
+    font-weight: 500;
+    line-height: 24px;
+    text-transform: capitalize;
+    margin: 0;
+    margin-right: 124.5px;
+}
+
+.vacation-star-icon {
+    width: 16px;
+    height: 16px;
+    border-radius: 10px;
+    margin-right: 8px;
+}
+
+.vacation-item-bottom-number {
+    color: #666;
+    line-height: 24px;
+    margin: 0;
 }
