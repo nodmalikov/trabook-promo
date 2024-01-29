@@ -454,3 +454,11 @@ ul {
     width: 104px;
     height: 40px;
 }
+
+/* SITE-VACTION */
+.vaction {
+    padding-top: 120px;
+    padding-bottom: 120px;
+    background-image: url(/img/palma.svg);
+    background-repeat: no-repeat;
+}
