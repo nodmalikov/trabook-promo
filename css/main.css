@@ -15,7 +15,7 @@ h1, h2 {
 a {
     text-decoration: none;
     display: block;
-    cursor: grab;
+    cursor: pointer;
 }
 
 li {
