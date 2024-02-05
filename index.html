@@ -4,46 +4,60 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Trabook</title>
+
+    <!-- GOOGLE-FONTS -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Volkhov:wght@700&display=swap" rel="stylesheet">
+
+    <!-- CSS-LINKS -->
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
+
+
     <!-- SITE-HEADER -->
     <header class="header">
         <div class="header-container container">
+
+            <!-- SITE-LOGO -->
             <a href="index.html" class="site-logo">
-                <span class="logo-text">Trabook</span>
-                <img class="logo-img" src="img/site-logo.svg" alt="Site logo">
+                <span class="site-logo-text">Trabook</span>
+                <img class="site-logo-img" src="img/site-logo.svg" alt="Site logo">
             </a>
-            <nav class="site-nav">
-                <ul class="nav-list">
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">Home</a>
+
+            <!-- SITENAV -->
+            <nav class="sitenav">
+                <ul class="sitenav-list">
+                    <li class="sitenav-item">
+                        <a href="#" class="sitenav-link">Home</a>
                     </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">About</a>
+                    <li class="sitenav-item">
+                        <a href="#" class="sitenav-link">About</a>
                     </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">Destination</a>
+                    <li class="sitenav-item">
+                        <a href="#" class="sitenav-link">Destination</a>
                     </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">Tour</a>
+                    <li class="sitenav-item">
+                        <a href="#" class="sitenav-link">Tour</a>
                     </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">Blog</a>
+                    <li class="sitenav-item">
+                        <a href="#" class="sitenav-link">Blog</a>
                     </li>
                 </ul>
             </nav>
-            <div class="header-link">
-                <a class="header-link-login" href="#">Login</a>
-                <a class="header-link-signup" href="#">Sign up</a>
+
+            <!-- SITE-LINK -->
+            <div class="site-link">
+                <a class="site-link-login" href="#">Login</a>
+                <a class="site-link-signup" href="#">Sign up</a>
             </div>
         </div>
     </header>
-    <main>
+
+    <!-- SITE-MAIN -->
+    <main class="main">
         <!-- SITE-HERO -->
         <section class="hero">
             <div class="hero-container container">
@@ -53,6 +67,8 @@
                         <p class="hero-subtitle">A Team of experienced tourism professionals will provide you with the best advice and tips for your desire place.</p>
                         <a href="#" class="hero-button">Discover now</a>
                     </div>
+
+                    <!-- HERO-IMG-BACKGROUND -->
                     <div class="hero-img-background">
                         <img src="img/hero-img.png" alt="Person image" class="hero-img" srcset="img/hero-img.png 1x, img/hero-img@2x.png 2x">
                     </div>
@@ -60,6 +76,8 @@
                 <div class="hero-bottom">
                     <div class="hero-input">
                         <ul class="hero-input-list">
+
+                            <!-- HERO-INPUT-ITEM -->
                             <li class="hero-input-item">
                                 <div class="hero-input-wrapper">
                                     <span class="hero-input-title">Location</span>
@@ -67,6 +85,8 @@
                                 </div>
                                 <p class="hero-input-subtitle">Where are you going</p>
                             </li>
+
+                            <!-- HERO-INPUT-ITEM -->
                             <li class="hero-input-item">
                                 <div class="hero-input-wrapper">
                                     <span class="hero-input-title">Date</span>
@@ -74,6 +94,8 @@
                                 </div>
                                 <p class="hero-input-subtitle">When you will go</p>
                             </li>
+
+                            <!-- HERO-INPUT-ITEM -->
                             <li class="hero-input-item">
                                 <div class="hero-input-wrapper">
                                     <span class="hero-input-title">Guest</span>
@@ -82,27 +104,37 @@
                                 <p class="hero-input-subtitle">Number of guest</p>
                             </li>
                         </ul>
+
+                        <!-- HERO-INPUT-BUTTON -->
                         <a href="#" class="hero-input-button">Explore now</a>
                     </div>
                 </div>
             </div>
         </section>
+
+
         <!-- SITE-THINGS -->
         <section class="things">
             <div class="things-container container">
                 <h2 class="main-title">Things you need <span class="main-title-wrapper">to do</span></h2>
                 <p class="main-subtitle">We ensure that you’ll embark on a perfectly planned, safe vacation at a price you can afford.</p>
                 <ul class="things-card-list">
+
+                    <!-- THINGS-CARD-ITEM -->
                     <li class="things-card-item">
                         <img class="things-btn-one" src="img/things-btn-one.svg" alt="">
                         <h3 class="things-card-item-title things-card-item-title-capitalize">Sign up</h3>
                         <p class="things-card-item-subtitle">Completes all the work associated with planning and processing</p>
                     </li>
+
+                    <!-- THINGS-CARD-ITEM -->
                     <li class="things-card-item">
                         <img class="things-btn-two" src="img/things-btn-two.svg" alt="">
                         <h3 class="things-card-item-title">Worth of Money</h3>
                         <p class="things-card-item-subtitle">After successful access then book from exclusive deals & pricing</p>
                     </li>
+
+                    <!-- THINGS-CARD-ITEM -->
                     <li class="things-card-item">
                         <img class="things-btn-three" src="img/things-btn-three.svg" alt="">
                         <h3 class="things-card-item-title things-card-item-title-capitalize">Exciting travel</h3>
@@ -111,12 +143,16 @@
                 </ul>
             </div>
         </section>
+
+
         <!-- SITE-EXCLUSIVE -->
         <section class="exclusive">
             <div class="container">
                 <h2 class="main-title">Exclusive <span class="main-title-wrapper">deals & discounts</span></h2>
                 <p class="main-subtitle exclusive-subtitle">Discover our fantastic early booking discounts & start planning your journey.</p>
                 <ul class="exclusive-card-list">
+
+                    <!-- EXCLUSIVE-CARD-ITEM -->
                     <li class="exclusive-card-item">
                         <img class="exclusive-card-item-img" src="img/exclusive-image-1.png" alt="Building image" srcset="img/exclusive-image-1.png 1x, img/exclusive-image@2x-1.png 2x">
                         <div class="exclusive-card-item-top">
@@ -131,6 +167,8 @@
                             <span class="exclusive-card-item-number-bottom">$850</span>
                         </div>
                     </li>
+
+                    <!-- EXCLUSIVE-CARD-ITEM -->
                     <li class="exclusive-card-item">
                         <img class="exclusive-card-item-img" src="img/exclusive-image-2.png" alt="Building image" srcset="img/exclusive-image-2.png 1x, img/exclusive-image@2x-2.png 2x">
                         <div class="exclusive-card-item-top">
@@ -145,6 +183,8 @@
                             <span class="exclusive-card-item-number-bottom">$750</span>
                         </div>
                     </li>
+
+                    <!-- EXCLUSIVE-CARD-ITEM -->
                     <li class="exclusive-card-item">
                         <img class="exclusive-card-item-img" src="img/exclusive-image-3.png" alt="Building image" srcset="img/exclusive-image-3.png 1x, img/exclusive-image@2x-3.png 2x">
                         <div class="exclusive-card-item-top">
@@ -159,6 +199,8 @@
                             <span class="exclusive-card-item-number-bottom">$599</span>
                         </div>
                     </li>
+
+                    <!-- EXCLUSIVE-CARD-ITEM -->
                     <li class="exclusive-card-item">
                         <img class="exclusive-card-item-img" src="img/exclusive-image-4.png" alt="Building image" srcset="img/exclusive-image-4.png 1x, img/exclusive-image@2x-4.png 2x">
                         <div class="exclusive-card-item-top">
@@ -174,11 +216,15 @@
                         </div>
                     </li>
                 </ul>
+
+                <!-- EXCLUSIVE-BUTTON -->
                 <div class="exclusive-button-wrapper">
                     <img class="exclusive-button" src="img/site-btn-img.svg" alt="">
                 </div>
             </div>
         </section>
+
+
         <!-- SITE-VACATION -->
         <section class="vacation">
             <div class="vacation-container container">
@@ -188,6 +234,8 @@
                     <img class="vacation-button" src="img/site-btn-img.svg" alt="">
                 </div>
                 <ul class="vacation-list">
+
+                    <!-- VACATION-ITEM -->
                     <li class="vacation-item">
                         <img class="vacation-item-img" src="img/vacation-image-1.png" alt="Country image"     srcset="img/vacation-image-1.png 1x, img/vacation-image@2x-1.png 2x">
                         <div class="vacation-item-top">
@@ -201,6 +249,8 @@
                             <p class="vacation-item-bottom-number">4.8</p>
                         </div>
                     </li>
+
+                    <!-- VACATION-ITEM -->
                     <li class="vacation-item">
                         <img class="vacation-item-img" src="img/vacation-image-2.png" alt="Country image"     srcset="img/vacation-image-2.png 1x, img/vacation-image@2x-2.png 2x">
                         <div class="vacation-item-top">
@@ -214,6 +264,8 @@
                             <p class="vacation-item-bottom-number">4.7</p>
                         </div>
                     </li>
+
+                    <!-- VACATION-ITEM -->
                     <li class="vacation-item">
                         <img class="vacation-item-img" src="img/vacation-image-3.png" alt="Country image"     srcset="img/vacation-image-3.png 1x, img/vacation-image@2x-3.png 2x">
                         <div class="vacation-item-top">
@@ -230,6 +282,8 @@
                 </ul>
             </div>
         </section>
+
+
         <!-- SITE-PEOPLE -->
         <section class="people">
             <div class="people-container container">
@@ -246,25 +300,35 @@
                 </div>
             </div>
         </section>
+
+
         <!-- SITE-BLOG -->
         <section class="blog">
             <h2 class="main-title blog-title">Get update with <span class="main-title-wrapper">latest blog</span></h2>
             <ul class="blog-list">
+
+                <!-- BLOG-ITEM -->
                 <li class="blog-item">
                     <img class="blog-item-img" src="img/blog-image-1.jpg" alt="Country image" srcset="img/blog-image-1.jpg 1x, img/blog-image@2x-1.jpg 2x">
                     <h3 class="blog-item-title">The Amazing difference a year of travelling.</h3>
                     <p class="blog-item-subtitle">September 15, 2022</p>
                 </li>
+
+                <!-- BLOG-ITEM -->
                 <li class="blog-item">
                     <img class="blog-item-img" src="img/blog-image-2.jpg" alt="Country image" srcset="img/blog-image-2.jpg 1x, img/blog-image@2x-2.jpg 2x">
                     <h3 class="blog-item-title">Travel far enough, you meet yourself.</h3>
                     <p class="blog-item-subtitle">March 23, 2022</p>
                 </li>
+
+                <!-- BLOG-ITEM -->
                 <li class="blog-item">
                     <img class="blog-item-img" src="img/blog-image-3.jpg" alt="Country image" srcset="img/blog-image-3.jpg 1x, img/blog-image@2x-3.jpg 2x">
                     <h3 class="blog-item-title">How to save money while visiting Africa .</h3>
                     <p class="blog-item-subtitle">June 27, 2022</p>
                 </li>
+
+                <!-- BLOG-ITEM -->
                 <li class="blog-item">
                     <img class="blog-item-img" src="img/blog-image-4.jpg" alt="Country image" srcset="img/blog-image-4.jpg 1x, img/blog-image@2x-4.jpg 2x">
                     <h3 class="blog-item-title">Reflections on 5 months of travel: time to hang</h3>
@@ -274,6 +338,9 @@
             <img class="blog-button" src="img/blog-btn.svg" alt="">
         </section>
     </main>
+
+
+    <!-- SITE-FOOTER -->
     <footer class="footer">
         <div class="container">
             <div class="footer-top">
@@ -285,11 +352,13 @@
                 </div>
             </div>
             <div class="footer-bottom">
+
+                <!-- FOOTER-LIST -->
                 <ul class="footer-list footer-bottom-left-box">
                     <li class="footer-item">
                         <a href="index.html" class="footer-logo">
-                            <span class="logo-text">Trabook</span>
-                            <img class="logo-img" src="img/site-logo.svg" alt="Site logo">
+                            <span class="site-logo-text">Trabook</span>
+                            <img class="site-logo-img" src="img/site-logo.svg" alt="Site logo">
                         </a>
                     </li>
                     <li class="footer-item footer-bottom-left-content">
@@ -308,6 +377,8 @@
                         </a>
                     </li>
                 </ul>
+
+                <!-- FOOTER-LIST -->
                 <ul class="footer-list">
                     <li class="footer-item">
                         <a href="#" class="footer-link footer-link-heading">company</a>
@@ -325,6 +396,8 @@
                         <a href="#" class="footer-link">privacy & policy</a>
                     </li>
                 </ul>
+
+                <!-- FOOTER-LIST -->
                 <ul class="footer-list">
                     <li class="footer-item">
                         <a href="#" class="footer-link footer-link-heading">contact</a>
@@ -339,6 +412,8 @@
                         <a href="#" class="footer-link">affilates</a>
                     </li>
                 </ul>
+
+                <!-- FOOTER-LIST -->
                 <ul class="footer-list">
                     <li class="footer-item">
                         <a href="#" class="footer-link footer-link-heading">more</a>
