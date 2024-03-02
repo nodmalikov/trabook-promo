@@ -733,7 +733,7 @@ ul {
 
 .footer-top-input {
     width: 674px;
-    padding: 0.56rem 0.56rem 0.56rem 3.66rem;
+    padding: 0.56rem 0.56rem 0.56rem 0.56rem;
     border-radius: 10px;
     background-color: #fff;
     display: flex;
