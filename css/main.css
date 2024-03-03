@@ -760,6 +760,7 @@ li {
 .footer-input {
     border: 0;
     outline: 0;
+    background-color: #fff;
 }
 
 .footer-input-button {
