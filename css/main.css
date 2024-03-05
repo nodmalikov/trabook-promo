@@ -153,8 +153,12 @@ li {
 .hero {
     display: flex;
     flex-wrap: wrap;
-    padding-top: 6.2rem;
+    padding-top: 5rem;
     padding-bottom: 7.5rem;
+    background-image: url("../img/airplanes.svg");
+    background-repeat: no-repeat;
+    background-size: 785px 190px;
+    background-position: right -120px top 25px;
 }
 
 .hero-top {
@@ -171,7 +175,7 @@ li {
 }
 
 .hero-top-content {
-    width: 44.5%;
+    width: 50%;
 }
 
 .hero-title {
@@ -208,6 +212,18 @@ li {
     background-color: #fff;
     text-transform: capitalize;
     display: inline-block;
+}
+
+/* HERO-IMG */
+.hero-img-background {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 50%;
+    background-image: url("../img/hero-background.jpg");
+    background-repeat: no-repeat;
+    background-size: 500px;
+    background-position: bottom center;
 }
 
 .hero-img {
@@ -291,6 +307,13 @@ li {
     padding-top: 7.5rem;
     padding-bottom: 7.5rem;
     background-color: #f7f8fc;
+}
+
+.things-wrapper {
+    background-image: url("../img/airplane.svg");
+    background-repeat: no-repeat;
+    background-size: 180px 130px;
+    background-position: 912px 0;
 }
 
 .things-card-list {
@@ -478,6 +501,13 @@ li {
     background-color: #fefcfb;
 }
 
+.vacation-wrapper {
+    background-image: url("../img/palma.svg");
+    background-repeat: no-repeat;
+    background-size: 105px 80px;
+    background-position: 876px 0;
+}
+
 .vacation-subtitle {
     margin-bottom: 0;
 }
@@ -593,7 +623,12 @@ li {
 
 .people-container {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
+    align-items: center;
+    background-image: url("../img/aircrafts.svg");
+    background-repeat: no-repeat;
+    background-size: 168px 188px;
+    background-position: 1056px 20px;
 }
 
 .people-title {
@@ -617,12 +652,12 @@ li {
 
 .people-left-content {
     width: 33.6%;
-    margin-right: 9.81rem;
+    margin-right: 8rem;
 }
 
 .people-right-content {
     width: 43%;
-    padding: 1.75rem 0px 2.12rem 2.12rem;
+    padding: 2rem;
     border-radius: 10px;
     background-color: #fff;
     box-shadow: 0px 100px 80px 0px rgba(0, 0, 0, 0.02);
