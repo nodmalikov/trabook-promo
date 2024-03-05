@@ -222,7 +222,7 @@ li {
     width: 50%;
     background-image: url("../img/hero-background.jpg");
     background-repeat: no-repeat;
-    background-size: 500px;
+    background-size: contain;
     background-position: bottom center;
 }
 
