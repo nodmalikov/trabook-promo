@@ -170,7 +170,7 @@ li {
     margin-right: auto;
 }
 
-.hero-left-content {
+.hero-top-content {
     width: 44.5%;
 }
 
@@ -211,8 +211,10 @@ li {
 }
 
 .hero-img {
-    width: 600px;
-    height: 600px;
+    width: 450px;
+    height: 530px;
+    display: block;
+    object-fit: cover;
 }
 
 .hero-input {
