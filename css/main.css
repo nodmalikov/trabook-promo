@@ -158,7 +158,7 @@ li {
     background-image: url("../img/airplanes.svg");
     background-repeat: no-repeat;
     background-size: 785px 190px;
-    background-position: right -120px top 25px;
+    background-position: right -155px top 25px;
 }
 
 .hero-top {
@@ -219,7 +219,7 @@ li {
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    width: 50%;
+    width: 500px;
     background-image: url("../img/hero-background.jpg");
     background-repeat: no-repeat;
     background-size: contain;
