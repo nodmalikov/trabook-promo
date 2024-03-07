@@ -6,13 +6,10 @@
     --paragraph-font-family: "Poppins", "Arial", sans-serif;
 }
 
-* {
-    box-sizing: border-box;
-}
-
 html {
     height: 100%;
     scroll-behavior: smooth;
+    box-sizing: border-box;
 }
 
 body {
@@ -25,9 +22,15 @@ body {
     padding: 0;
 }
 
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
 *:focus {
-    outline: 2px dashed var(--striking-color);
-    outline-offset: 5px;
+    outline: 2px dotted var(--striking-color);
+    outline-offset: 2px;
 }
 
 a {
